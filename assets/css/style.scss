@@ -1,0 +1,54 @@
+#FormArea{
+
+
+
+    #EmployerForm{
+       
+        width: 50%;
+        margin: 0 auto;
+        background-color: #00203fff;
+        padding: 1rem 2rem 10rem;
+
+        .employer-list-area{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .name-space,.surname-space,.salary-space{
+                background-color: #ADEfd1ff;
+                padding: 10px 4px;
+            }
+        }
+
+        .submit-area{
+            width: 100%;
+            margin: 10px auto 0;
+
+            .add-btn{
+                width: 100%;
+                border: none;
+                margin-top: 30px
+            }
+         
+        }
+        h1{
+            color: aquamarine;
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 40px;
+        }
+       
+
+        label{
+            margin: 0 4px 0 10px;
+        }
+
+        input{
+            border-radius: 4px;
+            outline: none;
+            border-color: greenyellow;
+       
+        }
+      
+    }
+}

@@ -1,0 +1,38 @@
+#FormArea #EmployerForm {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #00203f;
+  padding: 1rem 2rem 10rem;
+}
+#FormArea #EmployerForm .employer-list-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#FormArea #EmployerForm .employer-list-area .name-space, #FormArea #EmployerForm .employer-list-area .surname-space, #FormArea #EmployerForm .employer-list-area .salary-space {
+  background-color: #adefd1;
+  padding: 10px 4px;
+}
+#FormArea #EmployerForm .submit-area {
+  width: 100%;
+  margin: 10px auto 0;
+}
+#FormArea #EmployerForm .submit-area .add-btn {
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+}
+#FormArea #EmployerForm h1 {
+  color: aquamarine;
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 40px;
+}
+#FormArea #EmployerForm label {
+  margin: 0 4px 0 10px;
+}
+#FormArea #EmployerForm input {
+  border-radius: 4px;
+  outline: none;
+  border-color: greenyellow;
+}/*# sourceMappingURL=style.css.map */
